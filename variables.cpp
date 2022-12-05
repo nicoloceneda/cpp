@@ -1,7 +1,5 @@
 #include <iostream>
 
-using namespace std;
-
 int main()
 {
     int x;
@@ -10,7 +8,7 @@ int main()
     double y;
     y = 2.5;
 
-    cout << "If x = " << x << " and y = " << y << " then x * y = " << x * y << endl;
+    std::cout << "If x = " << x << " and y = " << y << " then x * y = " << x * y << std::endl;
 
     return 0;
 }

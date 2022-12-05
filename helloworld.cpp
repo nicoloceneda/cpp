@@ -1,11 +1,9 @@
-#include <iostream>                                                             // Library to print to screen
-
-using namespace std;                                                            // Allows to use cout and endl without using their longer form
+#include <iostream>                                                             // Library to input/output (io) in the terminal
 
 int main()                                                                      // Special function that contains body
 {
-    cout << "Hello world!" << endl;                                             // Print to screen
-    cout << "My name is Nicolo" << endl;
+    std::cout << "Hello world!" << std::endl                                    // std:: allows to use cout and endl without using their longer form 
+         << "My name is Nicolo" << std::endl;                                   // cout allows to print to screen       
 
     return 0;                                                                   // Return 0 (int) to tell computer if the program executed correctly
 }

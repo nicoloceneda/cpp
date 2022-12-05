@@ -1,11 +1,9 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
-
 int main()
 {
-  string name;
+  std::string name;
   double height_meters;
 
   double height_feet;
@@ -15,10 +13,10 @@ int main()
   int height_feet_inches_feet;
   int height_feet_inches_inches;
 
-  cout << "What is your name?" << endl;
-  cin >> name;
-  cout << "What is your height?" << endl;
-  cin >> height_meters;
+  std::cout << "What is your name?" << std::endl;
+  std::cin >> name;
+  std::cout << "What is your height?" << std::endl;
+  std::cin >> height_meters;
 
   height_feet = height_meters * 3.28084;
   height_inches = height_feet * 12;
@@ -27,9 +25,9 @@ int main()
   height_feet_inches_feet = height_inches_int / 12;                             // Int divided by int gives int
   height_feet_inches_inches = height_inches_int % 12;                           // Gives the remainder
 
-  cout << "The height of " << name << " is: " << endl;
-  cout << height_meters << " m" << endl;
-  cout << height_feet_inches_feet << " ft " << height_feet_inches_inches << " inches" << endl;
+  std::cout << "The height of " << name << " is: " << std::endl;
+  std::cout << height_meters << " m" << std::endl;
+  std::cout << height_feet_inches_feet << " ft " << height_feet_inches_inches << " inches" << std::endl;
 
   return 0;
 }

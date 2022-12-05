@@ -1,26 +1,24 @@
 #include <iostream>
 #include <cmath>
 
-using namespace std;
-
 int main()
 {
-    double x;
-    double y;
+    int x;
+    int y;
 
-    cout << "Enter a number" << endl;
-    cin >> x;
+    std::cout << "Enter a number" << std::endl;
+    std::cin >> x;
 
-    cout << "If x = " << x << " then:" << endl;
-    cout << " x^2 = " << pow(x,2) << endl;
-    cout << " sqrt(x) = " << sqrt(x) << endl;
-    cout << " sin(x) = " << sin(x) << endl;
+    std::cout << "If x = " << x << " then:" << std::endl;
+    std::cout << " x^2 = " << pow(x,2) << std::endl;
+    std::cout << " sqrt(x) = " << sqrt(x) << std::endl;
+    std::cout << " sin(x) = " << sin(x) << std::endl;
 
-    cout << "Enter another number" << endl;
-    cin >> y;
+    std::cout << "Enter another number" << std::endl;
+    std::cin >> y;
 
-    cout << "If y = " << y << " then:" << endl;
-    cout << " x/y = " << x / y << endl;
+    std::cout << "If y = " << y << " then:" << std::endl;
+    std::cout << " x/y = " << (double)x / y << std::endl;                       // Cast x to double             
 
     return 0;
 }
