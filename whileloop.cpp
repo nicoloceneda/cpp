@@ -1,8 +1,8 @@
 #include <iostream>
 #include <cmath>                                                             
 
-int main()                                                                      
-{
+int main(){
+    
     int i = 3;
     int n = 10;
 
@@ -10,7 +10,6 @@ int main()
 
         std::cout << pow(i,3) << std::endl;   
         i = i + 2;                              
-    
     }                                      
 
     return 0; 

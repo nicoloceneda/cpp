@@ -1,7 +1,7 @@
 #include <iostream>
 
-int main()
-{
+int main(){
+    
     int x;
     x = 4;
 

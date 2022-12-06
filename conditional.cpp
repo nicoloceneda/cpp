@@ -1,8 +1,8 @@
 #include <iostream>
 #include <string>
 
-int main()
-{
+int main(){
+    
     int age;
     std::string name;
 
@@ -29,7 +29,6 @@ int main()
     if(name != "Nicolo"){
 
         std::cout << "It's 5 pounds please." << std::endl;
-
     }
 
     std::cout << "Goodbye" << std::endl;

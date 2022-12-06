@@ -1,8 +1,8 @@
 #include <iostream>
 #include <cmath>
 
-int main()
-{
+int main(){
+    
     int x;
     int y;
 
