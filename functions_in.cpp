@@ -5,11 +5,11 @@
    move them to after the main function.
 
    To do so, we must do a forward declaration to let C++ know that the functions will be defined, 
-   i.e. we write the first line of each function without the braces. 
+   i.e. we write the first line of each function without the braces (and without the variable name). 
 */
 
-std::string sign_function(int n);
-int absolute_value(int n);
+std::string sign_function(int);
+int absolute_value(int);
 
 /* Call the functions in main */
 
