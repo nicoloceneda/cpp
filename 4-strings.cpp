@@ -4,7 +4,6 @@ using namespace std;
 
 int main()
 {
-
     string phrase = "My number is 0123456789";
     cout << "String: " << phrase << endl;
 

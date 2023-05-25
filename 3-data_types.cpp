@@ -4,7 +4,6 @@ using namespace std;
 
 int main()
 {
-
     char letter = 'A';                                                                              // Single character
     cout << letter << endl;
 

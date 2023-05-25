@@ -4,7 +4,6 @@ using namespace std;
 
 int main()
 {
-
     int numbers1[] = {1, 2, 3, 4, 5};                                                               // Elements provided directly (cannot add more elements)
 
     cout << numbers1[0] << endl;

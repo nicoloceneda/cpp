@@ -4,7 +4,6 @@ using namespace std;
 
 int main()
 {
-
     cout << 7+5 << endl;                                                                            // Addition
     cout << 7-5 << endl;                                                                            // Subtraction
     cout << 7*5 << endl;                                                                            // Multiplication

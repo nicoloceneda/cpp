@@ -4,7 +4,6 @@ using namespace std;
 
 int main()
 {
-
     string color, pluralNoun, celebrity;
 
     cout << "Enter a color: " << endl;
