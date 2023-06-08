@@ -8,7 +8,7 @@ int main()
 {   
     int index = 1;
 
-    do {                                                                            // Execute if true and then check condition
+    do {                                                                                            // Execute if true and then check condition
 
         cout << index <<endl;
         index++;
