@@ -9,7 +9,7 @@ int main()
 
     cout << "My name is " << name << " and I am " << age << " old." << endl;
 
-    name = "John";                                                                                 // Reassign value to variable
+    name = "John";                                                                                  // Reassign value to variable
     age = 25;
     
     cout << "My name is " << name << " and I am " << age << " old." << endl;
