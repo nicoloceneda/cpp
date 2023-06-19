@@ -9,13 +9,13 @@ class Book
         string author;
         int pages;
 
-        Book () {                                                                                   // Constructor (function for a class), here used to define default values for the attributes
+        Book () {                                                                                   // Constructor, used to define default values for the attributes
             title = "No title";
             author = "No author";
             pages = 0;
         }  
     
-        Book (string aTitle, string aAuthor, int aPages) {                                          // Constructor (function for a class), here used to initialize the object's attributes
+        Book (string aTitle, string aAuthor, int aPages) {                                          // Constructor, used to initialize the object's attributes
             title = aTitle;
             author = aAuthor;
             pages = aPages;
