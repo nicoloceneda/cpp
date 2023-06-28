@@ -4,5 +4,8 @@
 # But don't ignore .cpp files
 !*.cpp
 
-# Also don't ignore .gitignore (optional)
+# And don't ignore folders
+!lectures/
+
+# Also don't ignore .gitignore
 !.gitignore
