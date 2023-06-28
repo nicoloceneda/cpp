@@ -1,4 +1,6 @@
-# cpp
+# C++
+
+Execises to learn C++.
 
 Compile a script by going to the command line and typing:
 ```
