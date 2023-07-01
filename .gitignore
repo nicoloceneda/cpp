@@ -6,6 +6,7 @@
 
 # And don't ignore folders
 !lectures/
+!lectures/*
 
 # Also don't ignore .gitignore
 !.gitignore
