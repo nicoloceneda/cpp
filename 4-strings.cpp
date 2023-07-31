@@ -1,5 +1,6 @@
-#include <iostream>
+// Working with strings
 
+#include <iostream>
 using namespace std;
 
 int main()
@@ -7,10 +8,10 @@ int main()
     string phrase = "My number is 0123456789";
     cout << "String: " << phrase << endl;
 
-    cout << "Length of the string: " << phrase.length() << endl;                                    // Length of string
-
     phrase[13] = 'A';                                                                               // Replace a character
     cout << "Modified string: " << phrase << endl;
+    
+    cout << "Length of the string: " << phrase.length() << endl;                                    // Length of string
 
     string phrasesub = phrase.substr(3, 6);                                                         // Slice a string
     cout << "Sliced string: " << phrasesub << endl;                                                 // - First argument is strting index
