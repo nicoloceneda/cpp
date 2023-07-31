@@ -10,13 +10,13 @@ int main()
     cout << 10/5 << endl;                                                                           // Division
     cout << 10%3 << endl;                                                                           // Remainder
 
-    int nump = 5;                                                                                   // Add (subtract, multiply, divide) 1 to a number
-    nump++;
-    cout << nump << endl;         
+    int num1 = 5;                                                                                   // Add (subtract, multiply by, divide by) 1 to a number
+    num1++;
+    cout << num1 << endl;         
 
-    int numpv = 5;                                                                                  // Add (subtract, multiply, divide) number to number
-    numpv += 2;
-    cout << numpv << endl;    
+    int num2 = 5;                                                                                   // Add (subtract, multiply by, divide by) number to number
+    num2 += 2;
+    cout << num2 << endl;    
 
     cout << 10/3 << endl;                                                                           // int op int returns int
     cout << 10.0/3.0 << endl;                                                                       // double op double returns double
