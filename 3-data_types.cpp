@@ -1,3 +1,5 @@
+// Declare and initialize various types of variables
+
 #include <iostream>
 using namespace std;
 
