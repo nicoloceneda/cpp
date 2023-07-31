@@ -1,10 +1,10 @@
+// Print hello world
+
 #include <iostream>
 
-using namespace std;
+int main() {
 
-int main()                                                                                          
-{
-    cout << "Hello world!" << endl;                                                                 // Console out << ... << End line
+    std::cout << "Hello world!\n";                                                                 
 
     return 0;
 }
