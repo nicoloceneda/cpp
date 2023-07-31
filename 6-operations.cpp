@@ -1,3 +1,5 @@
+// Mathematical operations
+
 #include <iostream>
 #include <cmath>
 
