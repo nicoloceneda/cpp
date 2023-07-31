@@ -3,8 +3,8 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main() {
+    
     char letter = 'A';                                                                              // Single character
     cout << letter << endl;
 

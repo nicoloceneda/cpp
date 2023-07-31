@@ -5,8 +5,8 @@
 
 using namespace std;
 
-int main()                                                                                          
-{
+int main() {
+    
     cout << pow(2,3) << endl;                                                                       // Power        
     cout << sqrt(25) << endl;                                                                       // Square root     
     cout << round(2.1) << endl;                                                                     // Rounding  
