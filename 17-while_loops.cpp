@@ -2,8 +2,6 @@
 
 using namespace std;
 
-string getDayOfWeek(int dayNum);
-
 int main()
 {   
     int index = 1;
