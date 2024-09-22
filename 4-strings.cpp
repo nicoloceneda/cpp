@@ -18,7 +18,7 @@ int main() {
                                                                                                     // - Second argument is length
 
     string word = "number";                                                                         // Check for character/string:
-    cout << "Index where " << word << " apprears: " << phrase.find(word, 0) << endl;                // - Second argument is index were it start looking                
+    cout << "Index where " << word << " apprears: " << phrase.find(word, 0) << endl;                // - Second argument is index were it starts looking                
                                                                                                     // - Output is index were character/string appears
 
     return 0;
