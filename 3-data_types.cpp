@@ -1,4 +1,4 @@
-// Declare and initialize various types of variables
+// Different variable types
 
 #include <iostream>
 using namespace std;
