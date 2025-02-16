@@ -11,14 +11,17 @@ int main() {
     string phrase = "Pharase";                                                                      // More than one character
     cout << phrase << endl;
 
-    int number_int = 50;                                                                            // Integer
-    cout << number_int << endl;
+    int numberInt = 50;                                                                             // Integer
+    cout << numberInt << endl;
 
-    double number_float = 50.1;                                                                     // Decimal
-    cout << number_float << endl;
+    double numberFloat = 50.1;                                                                      // Decimal
+    cout << numberFloat << endl;
 
-    bool is_true = true;                                                                            // Boolean
-    cout << is_true << endl;
+    bool isTrue = true;                                                                             // Boolean
+    cout << isTrue << endl;
+
+    const float pi = 3.14;                                                                          // Constant variable
+    cout << pi << endl;
 
     return 0;
 }
